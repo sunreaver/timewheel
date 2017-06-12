@@ -3,7 +3,7 @@ Golang时间轮
 
 ## 回调方法
 
-```
+```Golang
 type CallBackType func(e interface{})
 ```
 
