@@ -15,9 +15,9 @@ PutTimer(second uint, repeat bool, id uint64, e interface{}, callBack CallBackTy
 
 参数 | 意义
 --- | ---
-second | second秒之后执行
+second | 延迟时间
 repeat | 是否循环执行
-id | 添加的timer的id
+id | 添加的timer的id（用于移除）
 e | callBack的实参
 callBack | 执行的方法
 
