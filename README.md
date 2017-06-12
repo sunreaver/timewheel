@@ -1,6 +1,12 @@
 # timewheel
 Golang时间轮
 
+## 回调方法
+
+```
+type CallBackType func(e interface{})
+```
+
 ## 添加
 
 ```Golang
