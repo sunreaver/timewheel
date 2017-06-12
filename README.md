@@ -11,18 +11,20 @@ type CallBackType func(e interface{})
 
 ```Golang
 PutTimer(second uint, repeat bool, id uint64, e interface{}, callBack CallBackType)
-
-second: second秒之后执行
-repeat: 是否循环执行
-id: 添加的timer的id
-e: callBack的实参
-callBack: 执行的方法
 ```
+
+参数 | 意义
+--- | ---
+**second:** | _second秒之后执行_
+**repeat:** | _是否循环执行_
+**id:** | _添加的timer的id_
+**e:** | _callBack的实参_
+**callBack:** | _执行的方法_
 
 ## 移除
 
 ```Golang
 RemoveTimer(id uint64)
-
-id: 需要移除执行的timer的id
 ```
+
+**id:** _需要移除执行的timer的id_
